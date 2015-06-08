@@ -16,6 +16,7 @@ class UsersController extends AppController{
 
 	function editorUser(){
 		$this->layout = "editor";
+		$this->redirect(array('controller'=>'posts','action'=>'showEditorPosts'));
 	}
 }
 
