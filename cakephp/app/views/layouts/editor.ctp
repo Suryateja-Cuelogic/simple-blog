@@ -10,6 +10,9 @@
 
     <title>Blog-Editor</title>
 
+    <!-- Custom css -->
+    <link href="/css/main.css" rel="stylesheet" type="text/css">
+
     <!-- Bootstrap Core CSS -->
     <link href="/extern/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
@@ -58,7 +61,7 @@
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
                         <li>
-                            <a href="#"></i> Posts</span></a>
+                            <a href="/editor_posts"></i> Posts</span></a>
                             <ul class="nav nav-second-level">
                                 <li>
                                     <a href="/posts/create">Create</a>

@@ -33,3 +33,6 @@
 	Router::connect('/editor/*', array('controller' => 'users', 'action' => 'editorUser'));
 
 	Router::connect('/posts/create', array('controller' => 'posts', 'action' => 'createPost'));
+
+	Router::connect('/editor_posts', array('controller' => 'posts', 'action' => 'showEditorPosts'));
+

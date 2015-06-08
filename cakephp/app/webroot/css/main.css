@@ -1,0 +1,7 @@
+.customNav{
+	margin-top:15px;
+}
+
+.nav-inline li{
+	display: inline-block !important;
+}

@@ -4,3 +4,5 @@
 2015-06-08 14:49:42 Notice: Notice (8): Undefined property: View::$Session in [/home/it101/office/Challenges/simple-blog/cakephp/cake/libs/view/layouts/default.ctp, line 43]
 2015-06-08 14:52:27 Notice: Notice (8): Undefined property: View::$Session in [/home/it101/office/Challenges/simple-blog/cakephp/cake/libs/view/layouts/default.ctp, line 43]
 2015-06-08 14:53:42 Notice: Notice (8): Undefined property: View::$Session in [/home/it101/office/Challenges/simple-blog/cakephp/cake/libs/view/layouts/default.ctp, line 43]
+2015-06-08 17:12:05 Notice: Notice (8): Undefined index: title in [/home/it101/office/Challenges/simple-blog/cakephp/app/views/posts/show_editor_posts.ctp, line 9]
+2015-06-08 17:12:05 Notice: Notice (8): Undefined index: body in [/home/it101/office/Challenges/simple-blog/cakephp/app/views/posts/show_editor_posts.ctp, line 12]

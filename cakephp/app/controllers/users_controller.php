@@ -6,9 +6,13 @@ class UsersController extends AppController{
 	    parent::beforeFilter();
 	}
 
+	# Function to access guest layout
+
 	function guestUser(){
 		$this->layout = "guest";
 	}
+
+	# Function to access editor layout
 
 	function editorUser(){
 		$this->layout = "editor";
