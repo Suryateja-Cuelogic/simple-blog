@@ -7,11 +7,13 @@ class UsersController extends AppController{
 	}
 
 	function guestUser(){
-
+		$this->layout = "guest";
 	}
 
 	function editorUser(){
 		$this->layout = "editor";
 	}
-
 }
+
+
+

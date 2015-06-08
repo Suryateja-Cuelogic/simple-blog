@@ -33,7 +33,7 @@
  * @link http://book.cakephp.org/view/957/The-App-Controller
  */
 class AppController extends Controller {
+	
 	function beforeFilter(){
-		
 	}
 }

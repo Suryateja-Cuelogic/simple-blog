@@ -31,3 +31,5 @@
  * ...and connect the rest of 'Pages' controller's urls.
  */
 	Router::connect('/editor/*', array('controller' => 'users', 'action' => 'editorUser'));
+
+	Router::connect('/posts/create', array('controller' => 'posts', 'action' => 'createPost'));

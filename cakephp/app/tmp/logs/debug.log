@@ -1,2 +1,6 @@
 2015-06-08 10:15:05 Notice: Notice (1024): Please change the value of 'Security.salt' in app/config/core.php to a salt value specific to your application in [/home/it101/office/Challenges/cakephp/cake/libs/debugger.php, line 697]
 2015-06-08 10:15:05 Notice: Notice (1024): Please change the value of 'Security.cipherSeed' in app/config/core.php to a numeric (digits only) seed value specific to your application in [/home/it101/office/Challenges/cakephp/cake/libs/debugger.php, line 701]
+2015-06-08 14:18:56 Notice: Notice (8): Undefined property: View::$html in [/home/it101/office/Challenges/simple-blog/cakephp/app/views/layouts/editor.ctp, line 27]
+2015-06-08 14:49:42 Notice: Notice (8): Undefined property: View::$Session in [/home/it101/office/Challenges/simple-blog/cakephp/cake/libs/view/layouts/default.ctp, line 43]
+2015-06-08 14:52:27 Notice: Notice (8): Undefined property: View::$Session in [/home/it101/office/Challenges/simple-blog/cakephp/cake/libs/view/layouts/default.ctp, line 43]
+2015-06-08 14:53:42 Notice: Notice (8): Undefined property: View::$Session in [/home/it101/office/Challenges/simple-blog/cakephp/cake/libs/view/layouts/default.ctp, line 43]
