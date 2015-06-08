@@ -28,6 +28,13 @@ class PostsController extends AppController{
 		$this->set('posts',$posts);
 	}
 
+	# Function to display posts published by editor to guest
+	function guestPosts(){
+		$this->layout = 'guest';
+		$posts = $this->Post->find('all',array('conditions'=>array('Post.state'=>'Publish'),'order'=>'Post.id desc'));
+		$this->set('posts',$posts);
+	}
+
 	#function to publish the post
 	function publishPost($post_id){
 		$this->Post->id = $post_id;
@@ -63,6 +70,12 @@ class PostsController extends AppController{
 	# Function to redirect a page
 	function redirectPage($page_info){
 		$this->redirect($page_info);
+	}
+
+	#function to view the post
+	function showPost($post_id){
+		$this->layout = 'guest';
+		$this->set('postDetails',$this->Post->read());
 	}
 }
 

@@ -7,3 +7,4 @@
 2015-06-08 17:12:05 Notice: Notice (8): Undefined index: title in [/home/it101/office/Challenges/simple-blog/cakephp/app/views/posts/show_editor_posts.ctp, line 9]
 2015-06-08 17:12:05 Notice: Notice (8): Undefined index: body in [/home/it101/office/Challenges/simple-blog/cakephp/app/views/posts/show_editor_posts.ctp, line 12]
 2015-06-08 18:07:28 Notice: Notice (8): Undefined variable: post in [/home/it101/office/Challenges/simple-blog/cakephp/app/views/posts/update_post.ctp, line 2]
+2015-06-08 18:47:27 Notice: Notice (8): Undefined variable: id in [/home/it101/office/Challenges/simple-blog/cakephp/app/config/routes.php, line 39]

@@ -10,6 +10,7 @@ class UsersController extends AppController{
 
 	function guestUser(){
 		$this->layout = "guest";
+		$this->redirect(array('controller'=>'posts','action'=>'guestPosts'));
 	}
 
 	# Function to access editor layout
