@@ -1,4 +1,3 @@
 <?php
-class PostModComponent extends Object{
-	
+class PostModComponent extends Object{	
 }

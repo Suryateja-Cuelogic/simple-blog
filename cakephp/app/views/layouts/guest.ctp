@@ -94,8 +94,8 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="/extern/front-end/js/bootstrap.min.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="/extern/front-end/js/clean-blog.min.js"></script>
+    <!-- Custom Theme JavaScript 
+    <script src="/extern/front-end/js/clean-blog.min.js"></script>-->
 
 </body>
 
